@@ -14,6 +14,14 @@ $(document).ready(function() {
         line: {
           style: "smooth"
         }
+      },
+      labels: {
+        visible: true,
+        background: "green"
+      },
+      tooltip: {
+        visible: true,
+        background: "red"
       }
     },
     series: [
