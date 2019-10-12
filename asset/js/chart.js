@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $("#chart").kendoChart({
     title: {
-      text: "Gross domestic product growth \n /GDP annual %/"
+      text: "Chart Demo"
       //   background: "green",
       //   align: "left"
     },
@@ -76,9 +76,8 @@ $(document).ready(function() {
         format: "{0}%"
       },
       line: {
-        visible: false
-      },
-      axisCrossingValue: -10
+        visible: true
+      }
     },
     categoryAxis: {
       categories: [2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
